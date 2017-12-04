@@ -36,7 +36,6 @@ public class Calc {
      */
     public double GetNumber(){
         Scanner get = new Scanner(System.in);
-        double n;
         System.out.println("Введите число");
         do {
             while (!get.hasNextDouble()||!get.hasNext()) {
@@ -44,8 +43,7 @@ public class Calc {
                 get.next();
             }
         } while (!get.hasNextDouble());
-        n = get.nextDouble();
-        return n;
+        return get.nextDouble();
     }
 
     /**
@@ -56,14 +54,12 @@ public class Calc {
      */
     public char GetOper(){
         Scanner geto = new Scanner(System.in);
-        char o;
         System.out.println("Введите операцию(поддерживаются '+' '-' '*' '/')");
         while (!geto.hasNext("[-+*/]")){
             System.out.println("Вы ввели неподдерживаемую операцию, повторите ввод");
             geto.next();
         }
-        o = geto.next().charAt(0);
-        return o;
+        return geto.next().charAt(0);
     }
 
     /**
