@@ -18,6 +18,18 @@
           <option name="url" value="https://github.com/rHe3Do/MarketSearchTests" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mbaykova/rgstests/blob/pageObjectJunit/src/test/java/MyRefactoringTest.java" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mbaykova/rgstests/tree/pageObjectJunit" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mbaykova/rgstests.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\JavaProj" />
